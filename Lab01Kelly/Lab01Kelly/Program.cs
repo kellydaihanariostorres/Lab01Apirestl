@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.ConfigureCors();
 builder.Services.ConfigureIISIntegration();
 
-// Add services to the container.
+// Add services to the container
 builder.Services.AddControllers();
 
 var app = builder.Build();
@@ -46,3 +46,8 @@ app.Run(async context => {
 app.MapControllers();
 
 app.Run();
+
+namespace Microsoft.AspNetCore.Http
+{
+    public delegate Task RequestDelegate(HttpContext context);
+}
