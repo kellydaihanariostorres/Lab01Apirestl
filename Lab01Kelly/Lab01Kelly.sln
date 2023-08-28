@@ -5,13 +5,21 @@ VisualStudioVersion = 17.6.33723.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab01Kelly", "Lab01Kelly\Lab01Kelly.csproj", "{C0FD4BE6-A743-4664-AE85-AB833A7D484F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contracts", "Contracts\Contracts.csproj", "{D6EFDC20-AFB7-4CB1-9ABC-8F325ED56A6F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Contracts", "Contracts\Contracts.csproj", "{D6EFDC20-AFB7-4CB1-9ABC-8F325ED56A6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entities", "Entities\Entities.csproj", "{890EAFB4-479B-48EA-A7CD-0A67DE1EF53E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entities", "Entities\Entities.csproj", "{890EAFB4-479B-48EA-A7CD-0A67DE1EF53E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggerService", "LoggerService\LoggerService.csproj", "{AA098852-F41F-4CEB-A611-B6F2D02896C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LoggerService", "LoggerService\LoggerService.csproj", "{AA098852-F41F-4CEB-A611-B6F2D02896C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{43BFB706-6346-431C-B4B0-4C733D04E9E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{43BFB706-6346-431C-B4B0-4C733D04E9E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service", "Service\Service.csproj", "{5EF616AD-091A-4CB5-B2E8-265F6317216B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service.Contract", "Service.Contract\Service.Contract.csproj", "{02DEE585-A212-4EF2-BFEA-8CFCD4FDBC01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompanyEmployees.Presentation", "CompanyEmployees.Presentation\CompanyEmployees.Presentation.csproj", "{2CDE751B-5B2F-4E22-AEF7-ADD649740C9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shered", "Shered\Shered.csproj", "{CF4CDA90-7A9F-4731-8A9C-36A9E4CA5068}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +47,22 @@ Global
 		{43BFB706-6346-431C-B4B0-4C733D04E9E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43BFB706-6346-431C-B4B0-4C733D04E9E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43BFB706-6346-431C-B4B0-4C733D04E9E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EF616AD-091A-4CB5-B2E8-265F6317216B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EF616AD-091A-4CB5-B2E8-265F6317216B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EF616AD-091A-4CB5-B2E8-265F6317216B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EF616AD-091A-4CB5-B2E8-265F6317216B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02DEE585-A212-4EF2-BFEA-8CFCD4FDBC01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02DEE585-A212-4EF2-BFEA-8CFCD4FDBC01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02DEE585-A212-4EF2-BFEA-8CFCD4FDBC01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02DEE585-A212-4EF2-BFEA-8CFCD4FDBC01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CDE751B-5B2F-4E22-AEF7-ADD649740C9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CDE751B-5B2F-4E22-AEF7-ADD649740C9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CDE751B-5B2F-4E22-AEF7-ADD649740C9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CDE751B-5B2F-4E22-AEF7-ADD649740C9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF4CDA90-7A9F-4731-8A9C-36A9E4CA5068}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF4CDA90-7A9F-4731-8A9C-36A9E4CA5068}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF4CDA90-7A9F-4731-8A9C-36A9E4CA5068}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF4CDA90-7A9F-4731-8A9C-36A9E4CA5068}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
